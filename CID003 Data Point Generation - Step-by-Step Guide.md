@@ -20,7 +20,7 @@ Copy all external files/folders into the `external/` directory in the `main` bra
 
 ### **Step 3: Create Context Branch**
 
-Create a new branch from `main`. This branch will act as the **context** and will contain the modifications to guide the LLM.
+Create a new branch from `main`. This branch will act as the **context**.
 
 ### **Step 4: Prepare Context Branch**
 
@@ -31,7 +31,7 @@ In this context branch:
 
 ### **Step 5: Create GitHub Issue**
 
-With the context branch in place, create a new GitHub Issue describing the problem and attach the context branch as the reference.
+With the context branch in place, create a new GitHub Issue.
 
 ### **Step 6: Open Pull Request (Context)**
 
@@ -39,10 +39,10 @@ Create a PR to merge the context branch into the `main` branch.
 
 ### **Step 7: Create Response Branch**
 
-Create a new branch (response branch) from `main` and do the following:
+Create a response branch from `main` and do the following:
 
 1. **Add the deleted RTL module back** into the `external/` folder.
-2. Add two metadata files:
+2. Add two metadata files (else harness will not pass) :
 
    * `external.yml`
    * `origin.yml`
