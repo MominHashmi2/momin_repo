@@ -79,8 +79,4 @@ external:
     context: context_cid003_dp1
 ```
 
----
 
-## Flow Diagram
-
-*A flow diagram image representing this process is included below.*
